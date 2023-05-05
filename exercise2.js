@@ -10,15 +10,24 @@ simplifyRoute("/../");                  /
 simplifyRoute("/home//pruebes/");       /home/pruebes
 */
 
+//Make a function with the route
 const simplifyRoute = (route) => {
+    
+    //
     let stack = [];
 
+    //
     const parts = route.split('/');
 
+    //
     for(const part of parts){
+
+        //
         if(part === '..'){
             stack.pop();
         }
+
+        //
         else if(part !== '.' && part !== ''){
             stack.push(part);
         }
