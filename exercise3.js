@@ -17,7 +17,11 @@ const differenceInDays = (date_1, date_2) => {
 
     //
     const days = Math.floor(millisecondsDifference / (1000 * 60 * 60 * 24));
+
+    if(isNaN(days)) 'wrong date format, please use the american format';
+
     return `The difference are ${days} days`;
 }
 
 console.log(differenceInDays('Dec 1, 2023', 'Dec 24, 2023'));
+console.log(differenceInDays('2023-1-12', '2023-1-14'));
