@@ -1,21 +1,22 @@
 /*
-Given a Marvel superhero object, write a program that can shows information about a superhero.
+Statement:
+  Given a Marvel superhero object, write a program that can shows information about a superhero.
 
-It also adds the ability to search the information of many superheroes at once.
+  It also adds the ability to search the information of many superheroes at once.
 
-Example 1:
-showSuperHeroInformation('Iron Man');
+  Example 1:
+  showSuperHeroInformation('Iron Man');
 
-out:
-Real name: Tony Stark
-Powers: Advanced Technology, Air Mobility
-Team: The Avengers
+  out:
+  Real name: Tony Stark
+  Powers: Advanced Technology, Air Mobility
+  Team: The Avengers
 
-Example2:
-showSuperHerosInformation([object of names]);
+  Example2:
+  showSuperHerosInformation([object of names]);
 
-out:
-Shows the information of all superheroes.
+  out:
+  Shows the information of all superheroes.
 
 */
 

@@ -1,9 +1,10 @@
 /*
-Given two dates. Create a function that returns the difference in days.
+Statement:
+    Given two dates. Create a function that returns the difference in days.
 
-Example:
-        INPUT                                                    OUTPUT
-differenceInDays('Dec 1, 2023', 'Dec 24, 2023');                   23
+    Example:
+            INPUT                                                    OUTPUT
+    differenceInDays('Dec 1, 2023', 'Dec 24, 2023');                   23
 */
 
 const differenceInDays = (date_1, date_2) => {

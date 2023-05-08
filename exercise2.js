@@ -1,13 +1,14 @@
 /*
-Given an aboslute route of a file (it's about Linux Sistem or based in Unix).
-Make a function that simplify
+Statement:
+    Given an aboslute route of a file (it's about Linux Sistem or based in Unix).
+    Make a function that simplify
 
-Example:
-        INPUT                           OUTPUT
-simplifyRoute("/home/");                /home
-simplifyRoute("/x/./y/../../z/");        /z
-simplifyRoute("/../");                  /
-simplifyRoute("/home//pruebes/");       /home/pruebes
+    Example:
+            INPUT                           OUTPUT
+    simplifyRoute("/home/");                /home
+    simplifyRoute("/x/./y/../../z/");        /z
+    simplifyRoute("/../");                  /
+    simplifyRoute("/home//pruebes/");       /home/pruebes
 */
 
 //Make a function with the route
