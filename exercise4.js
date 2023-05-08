@@ -12,3 +12,9 @@ Statement:
                                                     the word is: _e___
                                                     You get 5 attemps.
 */
+
+const ahorcadoGame = (word) =>{
+    alert(`This is the exercise 4`)
+}
+
+const startGame = document.querySelector("#startGame").addEventListener("click", () => ahorcadoGame("kevin"));
